@@ -1,3 +1,6 @@
+# Action infromations yml
+
+```yml
 name: Get information from github action
 
 on: 
@@ -59,3 +62,4 @@ jobs:
       - run: echo github.workflow_ref= ${{ github.workflow_ref }}
       - run: echo github.workflow_sha= ${{ github.workflow_sha }}
       - run: echo github.workspace= ${{ github.workspace }}
+```
