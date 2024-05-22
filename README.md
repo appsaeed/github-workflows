@@ -7,7 +7,7 @@ This repository provides a testing and useing ground for GitHub Actions and work
 - [Github Pages](docs/github-pages.md)
 - [Tags and Release](docs/release.md)
 
-# github page action 
+# Github pages (actions)
 ```yml
 # Simple workflow for deploying static content to GitHub Pages
 name: Deploy static content to Pages
