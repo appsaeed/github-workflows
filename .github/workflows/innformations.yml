@@ -1,0 +1,60 @@
+name: learn-github-actions
+run-name: ${{ github.actor }} is learning GitHub Actions
+
+on: [push]
+
+jobs:
+  check-bats-version:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+      - run: npm install -g bats
+      - run: echo ${{ github.action}}
+      - run: echo ${{ github.action_path}}
+      - run: echo ${{ github.action_ref}}
+      - run: echo ${{ github.action_repository }}
+      - run: echo ${{ github.action_status }}
+      - run: echo ${{ github.actor }}
+      - run: echo ${{ github.actor_id }}
+      - run: echo ${{ github.api_url }}
+      - run: echo ${{ github.base_ref }}
+      - run: echo ${{ github.event_name }}
+      - run: echo ${{ github.env }}
+      - run: echo ${{ github.event.after }}
+      - run: echo ${{ github.event.base_ref }}
+      - run: echo ${{ github.event.before }}
+      - run: echo ${{ github.event.commits }}
+      - run: echo ${{ github.event.compare }}
+      - run: echo ${{ github.event.created }}
+      - run: echo ${{ github.event.deleted }}
+      - run: echo ${{ github.event.enterprise }}
+      - run: echo ${{ github.event.forced }}
+      - run: echo ${{ github.event.head_commit }}
+      - run: echo ${{ github.event.installation }}
+      - run: echo ${{ github.event.organization }}
+      - run: echo ${{ github.head_ref }}
+      - run: echo ${{ github.job }}
+      - run: echo ${{ github.job_workflow_sha }}
+      - run: echo ${{ github.path }}
+      - run: echo ${{ github.ref }}
+      - run: echo ${{ github.ref_name }}
+      - run: echo ${{ github.ref_protected }}
+      - run: echo ${{ github.ref_type }}
+      - run: echo ${{ github.repository }}
+      - run: echo ${{ github.repository_id }}
+      - run: echo ${{ github.repository_owner }}
+      - run: echo ${{ github.repository_owner_id }}
+      - run: echo ${{ github.repositoryUrl }}
+      - run: echo ${{ github.retention_days }}
+      - run: echo ${{ github.secret_source }}
+      - run: echo ${{ github.server_url }}
+      - run: echo ${{ github.sha }}
+      - run: echo ${{ github.token }}
+      - run: echo ${{ github.triggering_actor }}
+      - run: echo ${{ github.workflow }}
+      - run: echo ${{ github.workflow_ref }}
+      - run: echo ${{ github.workflow_sha }}
+      - run: echo ${{ github.workspace }}
