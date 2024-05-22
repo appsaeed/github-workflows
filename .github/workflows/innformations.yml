@@ -1,6 +1,9 @@
 name: Get information from github action
 
-on: [push]
+on: 
+ push: 
+  branches:
+    - main
 
 jobs:
   informations:
