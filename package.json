@@ -1,0 +1,19 @@
+{
+  "name": "github-workflows",
+  "version": "1.0.0",
+  "description": "This repository provides a testing and useing ground for GitHub Actions and workflows, complete with helpful guidance.",
+  "type": "module",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "build": "node .github/actions/docs.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "utilies": "^1.26.0"
+  }
+}

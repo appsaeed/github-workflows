@@ -1,4 +1,4 @@
-# Github pages actions 
+# Deploy to Github pages by github actions 
 ```yml
 # Simple workflow for deploying static content to GitHub Pages
 name: Deploy static content to Pages
