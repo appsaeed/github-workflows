@@ -1,4 +1,4 @@
-# Publish npm package using github action
+# Publish npm package using GitHub action
 
 ```yml
 name: Publish package
