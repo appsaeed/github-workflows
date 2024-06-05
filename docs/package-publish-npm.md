@@ -7,11 +7,11 @@ on:
 
   workflow_dispatch:
   
-  # the workflow will triger when git push in main branche
+  # The workflow will trigger when git pushes in the main branch
   push:
     branches:
       - main
-  # the workflow will triger when your create release from github 
+  # The workflow will trigger when you create a release from GitHub 
   release:
     types: [published]
 
