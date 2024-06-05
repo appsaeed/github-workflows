@@ -5,7 +5,7 @@ This repository provides a testing and useing ground for GitHub Actions and work
 # Summary
 [Automatic FTP Deploy using GitHub action](docs/ftp-deploy.md) <br>
 [Deploy to Github pages by github actions](docs/github-pages.md) <br>
-[Publish Javascript Package both on NPM and Github package](docs/package-publish.md) <br>
+[Publish Javascript Package both on NPM & Github package](docs/package-publish.md) <br>
 [Publish npm package using GitHub action](docs/package-publish-github.md) <br>
 [Github action: tags and releases](docs/release.md) <br>
 
@@ -133,7 +133,7 @@ jobs:
         uses: actions/deploy-pages@v4
 ```
 
-# Publish Javascript Package both on NPM and Github package
+# Publish Javascript Package both on NPM & Github package
 
 ```yml
 name: Publish package
