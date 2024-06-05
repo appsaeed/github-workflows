@@ -1,4 +1,4 @@
-# Publish Javascript Package both on NPM and Github package
+# Publish Javascript Package both on NPM & Github package
 
 ```yml
 name: Publish package
