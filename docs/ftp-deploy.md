@@ -1,4 +1,4 @@
-# Automiatic FTP Deploy using github action
+# Automatic FTP Deploy using GitHub action
 
 Please visit for more information (https://github.com/marketplace/actions/ftp-deploy)
 
