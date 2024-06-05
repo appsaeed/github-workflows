@@ -6,7 +6,7 @@ This repository provides a testing and useing ground for GitHub Actions and work
 [Automatic FTP Deploy using GitHub action](docs/ftp-deploy.md) <br>
 [Deploy to Github pages by github actions](docs/github-pages.md) <br>
 [Publish Javascript Package both on NPM and Github package](docs/package-publish.md) <br>
-[Publish npm package using github action](docs/package-publish-github.md) <br>
+[Publish npm package using GitHub action](docs/package-publish-github.md) <br>
 [Github action: tags and releases](docs/release.md) <br>
 
 # Automatic FTP Deploy using GitHub action
@@ -196,7 +196,7 @@ jobs:
           # the token must have permission to read write package
 ```
 
-# Publish npm package using github action
+# Publish npm package using GitHub action
 
 ```yml
 name: Publish package
@@ -205,11 +205,11 @@ on:
 
   workflow_dispatch:
   
-  # the workflow will triger when git push in main branche
+  # The workflow will trigger when git pushes in the main branch
   push:
     branches:
       - main
-  # the workflow will triger when your create release from github 
+  # The workflow will trigger when you create a release from GitHub 
   release:
     types: [published]
 
@@ -229,6 +229,7 @@ jobs:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
           # your npm token
 ```
+
 # Github action: tags and releases
 ```yml
 on:
