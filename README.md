@@ -3,13 +3,13 @@
 This repository provides a testing and useing ground for GitHub Actions and workflows, complete with helpful guidance.
 
 # Summary
-[Automiatic FTP Deploy using github action](docs/ftp-deploy.md) <br>
+[Automatic FTP Deploy using GitHub action](docs/ftp-deploy.md) <br>
 [Deploy to Github pages by github actions](docs/github-pages.md) <br>
 [Publish Javascript Package both on NPM and Github package](docs/package-publish.md) <br>
 [Publish npm package using github action](docs/package-publish-github.md) <br>
 [Github action: tags and releases](docs/release.md) <br>
 
-# Automiatic FTP Deploy using github action
+# Automatic FTP Deploy using GitHub action
 
 Please visit for more information (https://github.com/marketplace/actions/ftp-deploy)
 
@@ -71,6 +71,7 @@ jobs:
     - name: Install Composer dependencies
       run: composer install --no-interaction --prefer-dist --optimize-autoloader
 ```
+
 # Deploy to Github pages by github actions 
 ```yml
 # Simple workflow for deploying static content to GitHub Pages
